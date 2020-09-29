@@ -11,9 +11,11 @@ class App extends Component {
            
           <h1 className="App-title">Welcome to React</h1>
           <h1>Hi, I'm a react app</h1>
-          <Person />
+          
         </header>
-        
+        <Person name="Max" age="28" />
+          <Person name="Manu" age="30" >My Hobbies: Racing</Person>
+          <Person name = "Stephanie" age="26" />
        </div>
     
     )}
